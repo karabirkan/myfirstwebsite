@@ -1,6 +1,31 @@
 * {
     margin: 0%;
+    font-family: roboto;
+    box-sizing: border-box;
 }
+
+.button {
+
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(92, 119, 255);
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(84 105 212) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 8px;
+    display: inline-block;
+    min-height: 28px;
+    transition: background-color .24s, box-shadow .24s;
+
+
+
+
+}
+
+
 
 
 /*  -------- This is a Header --------- */
@@ -11,20 +36,22 @@
     justify-content: space-between;
     background-color: #1f2937;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
 
 
 }
 
 .headerlogo {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 
 }
 
 .headertext {
-    color: white;
+    color: #F9FAF8;
+    font-size: 24px;
+
 }
 
 #websitelogo {
@@ -38,13 +65,15 @@
     display: flex;
     list-style-type: none;
     gap: 32px;
+    padding-right: 50px;
 }
 
 
 .headerlist a {
-    text-decoration: none;
-    color: rgb(247, 255, 209);
 
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 18px;
 }
 
 
@@ -55,5 +84,26 @@
 
 .info {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    background-color: #1f2937;
+    padding-top: 200px;
+    gap: 300px;
+}
+
+
+.slogan p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.slogan h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.slogan .button {
+    margin-top: 20px;
+    font-size: 20px;
+
 }
