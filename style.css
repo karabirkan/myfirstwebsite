@@ -1,3 +1,59 @@
 * {
-    background-color: white;
+    margin: 0%;
+}
+
+
+/*  -------- This is a Header --------- */
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+.headerlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.headertext {
+    color: white;
+}
+
+#websitelogo {
+    width: 55px;
+    height: 55px;
+
+}
+
+
+.headerlist {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+}
+
+
+.headerlist a {
+    text-decoration: none;
+    color: rgb(247, 255, 209);
+
+}
+
+
+
+
+
+/*  -------- This is a Info Section -------- */
+
+.info {
+    display: flex;
+    justify-content: space-between;
 }
