@@ -163,3 +163,38 @@
     text-align: end;
     padding: 30px;
 }
+
+
+
+/* #------ This is a Call to action section -----# */
+
+
+.call {
+    display: flex;
+    background-color: #3882F6;
+    border: solid 0px;
+    border-radius: 20px;
+    justify-content: center;
+    height: 150px;
+    width: 600px;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.callflex {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+/* #------ This is a Footer Section -----# */
+
+.footer {
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+    background-color: #E5E7EB;
+    height: 50px;
+    align-items: center;
+}
